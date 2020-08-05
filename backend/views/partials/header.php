@@ -11,7 +11,7 @@ use yii\bootstrap\NavBar;
 AppAsset::register($this);
 
 NavBar::begin([
-	'brandLabel' => "RationWala",
+	'brandLabel' => "Shop-247",
 	'brandUrl' => Yii::$app->homeUrl,
 	'options' => [
 		'class' => 'navbar-inverse navbar-fixed-top',
