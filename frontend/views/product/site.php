@@ -6,7 +6,7 @@ $this->title = "घर का राशन घर तक! shop-247!";
 $this->registerMetaTag(['name' => 'og:title', 'content' => 'shop-247, grocery, राशन']);
 $this->registerMetaTag(['name' => 'description', 'content' => 'shop-247, grocery, राशन, Grocery online delivery service in Ajmer Rajasthan. Atta dala chawal ghar ka sara saman bhaite magaye']);
 $this->registerMetaTag(['name' => 'og:description', 'content' => 'shop-247, grocery, राशन, Grocery online delivery service in Ajmer Rajasthan. Atta dala chawal ghar ka sara saman bhaite magaye']);
-$this->registerMetaTag(['name' => 'og:image', 'content' => 'http://www.shop-247.in/img/ration-wala.jpeg']);
+$this->registerMetaTag(['name' => 'og:image', 'content' => 'http://www.shop-247.in/img/shop-247.jpeg']);
 $this->registerMetaTag(['name' => 'og:type', 'content' => 'website']);
 $this->registerMetaTag(['name' => 'og:site_name', 'content' => 'shop-247']);
 $this->registerMetaTag(['name' => 'og:url', 'content' => 'http://www.shop-247.in']);
@@ -16,7 +16,7 @@ $this->registerMetaTag(['name' => 'og:url', 'content' => 'http://www.shop-247.in
 	<div class="section">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 centered">
-				<h1 class="text-center">घर का राशन घर तक! RationWala!</h1>
+				<h1 class="text-center">घर का राशन घर तक! Shop 24/7!</h1>
 			</div>
 		</div>
 
