@@ -9,7 +9,7 @@ use yii\bootstrap\ActiveForm;
 
 ?>
 <div class="jumbotron">
-	<h1>घर का राशन घर तक! RationWala!</h1>
+	<h1>घर का राशन घर तक! Shop 24/7!</h1>
 	<p style="font-size: 14px; margin:0px">We are committed to fulfill all your essential needs! You commit us by joining us!</p>
 	<p>हम आपकी सभी आवश्यक आवश्यकताओं को पूरा करने के लिए प्रतिबद्ध हैं! आप हमारे साथ जुड़कर हमें प्रतिबद्ध करें!</p>
 	<?php $form = ActiveForm::begin(['id' => 'form-signup', 'options' => ['class' => 'form-inline']]); ?>
