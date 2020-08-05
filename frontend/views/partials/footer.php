@@ -11,7 +11,7 @@ use yii\helpers\Url;
 
 		<div class="col-md-4 col-md-offset-2" style="text-align: center">
 			<ul style="list-style: none; width:400px; text-align:left;">
-				<li><a style="color:#fff">&copy; <?= date("Y") ?> YHS developers. All rights reserved.</a></li>
+				<li><a style="color:#fff">&copy; <?= date("Y") ?> SHOP-247. All rights reserved.</a></li>
 				<li><a style="color:#fff" href="<?= Url::to(['/page/terms']) ?>">Terms and condition</a></li>
 				<li><a style="color:#fff" href="<?= Url::to(['/page/policy']) ?>">Privacy Policy</a></li>
 			</ul>
@@ -19,9 +19,9 @@ use yii\helpers\Url;
 
 		<div class="col-md-4 col-offset-2" style="text-align: center">
 			<ul style="list-style: none; text-align:left; ">
-				<li>Ajmer</li>
-				<li>Pin code: 305023</li>
-				<li>Phone/Whatsapp +918209300153</li>
+				<li>Jaipur</li>
+				<li>Pin code: 302001</li>
+				<li>Phone/Whatsapp +917878584343</li>
 			</ul>
 
 		</div>

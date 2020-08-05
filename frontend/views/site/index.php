@@ -9,8 +9,10 @@ $this->title = 'My Yii Application';
 
 <div class="site-index">
 
-    <?php echo $this->render('//partials/banner_home', ['model' => $model]); ?>
-    <?php echo $this->render('//partials/chat_order', ['model' => $model]); ?>
+    <?php //echo $this->render('//partials/banner_home', ['model' => $model]); 
+    ?>
+    <?php //echo $this->render('//partials/chat_order', ['model' => $model]); 
+    ?>
 
     <div class="body-content">
 

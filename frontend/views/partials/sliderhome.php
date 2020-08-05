@@ -4,12 +4,12 @@ use yii\helpers\Html;
 
 $buyTextRaw = "Want to buy Hero detergent";
 $buyText = urldecode($buyTextRaw);
-$shareText = urlencode($buyTextRaw . "http://www.ration-wala.com");
+$shareText = urlencode($buyTextRaw . "http://www.show-247.in");
 
 $deliverymsg = urlencode("Want to know more about free delivery.");
 
-$image[] = ["image" => "/img/hero.jpeg", "url" => "https://wa.me/+918209300153/?text=" . $shareText];
-$image[] = ["image" => "/img/delivery.png", "url" => "https://wa.me/+918209300153/?text=" . $deliverymsg];
+$image[] = ["image" => "/img/hero.jpeg", "url" => "https://wa.me/+917878584343/?text=" . $shareText];
+$image[] = ["image" => "/img/delivery.png", "url" => "https://wa.me/+917878584343/?text=" . $deliverymsg];
 
 ?>
 <div class="row hidden-md hidden-lg">

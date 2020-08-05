@@ -22,8 +22,8 @@ $shareText = urlencode($buyTextRaw . " http://www.ration-wala.in");
 			<span><b>Price ₹<?= $val['sale_price'] ?></b></span>
 		</p>
 		<p>
-			<a href="https://wa.me/+918209300153/?text=<?= $shareText ?>" class="btn btn-success pull-left">Share</a>
-			<a href="https://wa.me/+918209300153/?text=<?= $buyText ?>" class="btn btn-warning pull-right">Buy Now</a>
+			<a href="https://wa.me/+917878584343/?text=<?= $shareText ?>" class="btn btn-success pull-left">Share</a>
+			<a href="https://wa.me/+917878584343/?text=<?= $buyText ?>" class="btn btn-warning pull-right">Buy Now</a>
 		</p>
 	</div>
 </div>

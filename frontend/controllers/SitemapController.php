@@ -27,7 +27,7 @@ class SitemapController extends Controller
             foreach ($products as $product) {
                 $date = date("Y-m-d\TH:i:s.000\Z");
                 $title = $product['title'];
-                $url = "http://www.ration-wala.in" . Url::to(['product/detail', 'title' => $title]);
+                $url = "http://www.shop-247.in" . Url::to(['product/detail', 'title' => $title]);
                 $title = trim($title);
                 $title = urlencode($title);
                 $out .= '<url>';

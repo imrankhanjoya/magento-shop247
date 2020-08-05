@@ -5,12 +5,12 @@ use yii\helpers\Url;
 
 $buyTextRaw = "Order for " . $val['title'] . " @" . $val['sale_price'];
 $buyText = urldecode($buyTextRaw);
-$shareText = urlencode($buyTextRaw . " http://www.ration-wala.in");
+$shareText = urlencode($buyTextRaw . "http://shop-247.in/");
 $discount = round(($val['mrp'] - $val['sale_price']) / $val['mrp'] * 100) . " %off";
 $title = $val['title'] . " buy @ ₹" . $val['sale_price'] . " MRP ₹" . $val['mrp'];
 $description = "Buy " . $val['title'] . " @ ₹" . $val['sale_price'] . " of MRP ₹" . $val['mrp'] . " discount of " . $discount;
-$imageUrl = "http://www.ration-wala.in" . Url::to("/" . $val['image']);
-$pageurl = "http://www.ration-wala.in" . Yii::$app->request->url;
+$imageUrl = "http://shop-247.in" . Url::to("/" . $val['image']);
+$pageurl = "http://shop-247.in" . Yii::$app->request->url;
 
 ?>
 <h1 class="text-center"><?= $val['title'] ?></h1>
@@ -27,8 +27,8 @@ $pageurl = "http://www.ration-wala.in" . Yii::$app->request->url;
 			<span><b>Price ₹<?= $val['sale_price'] ?></b></span>
 		</p>
 		<p>
-			<a href="https://wa.me/+918209300153/?text=<?= $shareText ?>" class="btn btn-success pull-left">Share</a>
-			<a href="https://wa.me/+918209300153/?text=<?= $buyText ?>" class="btn btn-warning pull-right">Buy Now</a>
+			<a href="https://wa.me/+917878584343/?text=<?= $shareText ?>" class="btn btn-success pull-left">Share</a>
+			<a href="https://wa.me/+917878584343/?text=<?= $buyText ?>" class="btn btn-warning pull-right">Buy Now</a>
 		</p>
 	</div>
 </div>

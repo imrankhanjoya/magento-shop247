@@ -12,8 +12,8 @@ use yii\bootstrap\NavBar;
 AppAsset::register($this);
 
 NavBar::begin([
-	'brandLabel' => Html::img("logo_t.png", ['style' => 'height:45px; margin-top:-10px']),
-	'brandUrl' => Yii::$app->homeUrl,
+	//'brandLabel' => Html::img("logo_t.png", ['style' => 'height:45px; margin-top:-10px']),
+	//'brandUrl' => Yii::$app->homeUrl,
 	'options' => [
 		'class' => 'navbar-inverse navbar-fixed-top nav-css',
 	],

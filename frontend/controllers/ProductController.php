@@ -68,8 +68,8 @@ class ProductController extends Controller
 			->andwhere(['like', 'products.title', $key])
 			->orderBy(['rank' => SORT_DESC])
 			->asArray()->all();
-		$title = "Find $key your घर का राशन! at RationWala!";
-		$description = 'Find $key at Ration-Wala, राशन, Grocery online delivery service in Ajmer Rajasthan. Atta dala chawal ghar ka sara saman ghar bhaite magaye. Free delivery at home';
+		$title = "Find $key your घर का राशन! at shop247!";
+		$description = 'Find $key at shop247, राशन, Grocery online delivery service in Ajmer Rajasthan. Atta dala chawal ghar ka sara saman ghar bhaite magaye. Free delivery at home';
 		if (empty($productlist)) {
 			$productlist = $searchModel->find()->select(['products.*', 'brand.title as brandname', 'product_attribute.value as image'])
 				->leftJoin('brand', 'brand.id = products.brand_id')
@@ -132,8 +132,8 @@ class ProductController extends Controller
 				->orderBy(['rank' => SORT_DESC])
 				->asArray()->all();
 		}
-		$title = "Find $catname घर का राशन! at RationWala!";
-		$description = 'Find ' . $catname . ' at Ration-Wala, राशन, Grocery online delivery service in Ajmer Rajasthan. Atta dala chawal ghar ka sara saman ghar bhaite magaye. Free delivery at home';
+		$title = "Find $catname घर का राशन! at shop247!";
+		$description = 'Find ' . $catname . ' at shop247, राशन, Grocery online delivery service in Ajmer Rajasthan. Atta dala chawal ghar ka sara saman ghar bhaite magaye. Free delivery at home';
 
 
 		return $this->render('category', [

@@ -12,7 +12,7 @@ use yii\bootstrap\NavBar;
 AppAsset::register($this);
 
 NavBar::begin([
-	'brandLabel' => Html::img("/logo_t.png", ['style' => 'height:40px; margin-top:-10px']),
+	//'brandLabel' => Html::img("/logo_t.png", ['style' => 'height:40px; margin-top:-10px']),
 	'brandUrl' => Yii::$app->homeUrl,
 	'options' => [
 		'class' => 'navbar navbar-default navbar-fixed-top nav-css',
